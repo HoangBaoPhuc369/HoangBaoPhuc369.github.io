@@ -1,10 +1,10 @@
 /* PC */
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     
 }
 
 /* Tablet & Mobile*/
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     #nav .subnav a {
         padding: 5px 12px;
     }
@@ -35,7 +35,7 @@
     }
 }
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
     
     .contact-info {
         line-height: 2;
@@ -43,7 +43,7 @@
 }
 
 /* Mobile */
-@media (max-width: 739px) { 
+@media only screen and (max-width: 739px) { 
     .s-full-width,
     .s-col-full {
         width: 100% !important;
