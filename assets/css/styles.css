@@ -208,7 +208,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/slider1/chicago.jpg') 
+    background: url('../img/slider1/chicago.jpg') 
     top center / cover no-repeat;
 }
 
@@ -236,6 +236,7 @@ html {
 #slider .text-description{
     margin-top: 25px;
     font-size: 15px;
+    text-shadow: 0 0 2px black;
 }
 
 
